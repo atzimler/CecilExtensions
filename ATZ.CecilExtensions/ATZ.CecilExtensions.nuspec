@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectUrl>https://github.com/atzimler/CecilExtensions</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/atzimler/CecilExtensions/master/LICENSE.txt</licenseUrl>
+    <description>Extensions for Mono.Cecil and related types.</description>
+    <dependencies>
+      <dependency id="Mono.Cecil" version="[0.9.6.4" />
+    </dependencies>
+    
+    <releaseNotes>
+1.0:
+- Initial NuGet Packaging.
+    </releaseNotes>
+    
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+</package>

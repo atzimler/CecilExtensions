@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="ATZ.CecilExtensions" default="help">
+  <description>Build file for ATZ.CecilExtensions library.</description>
+
+  <property name="project.name" value="CecilExtensions" />
+  <include buildfile="../NAnt/ATZ.Build.xml" />
+</project>

@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9E5D7F7-F528-491A-AF03-6669BCAF7299}"
 	ProjectSection(SolutionItems) = preProject
 		AssemblyVersion.cs = AssemblyVersion.cs
+		ATZ.CecilExtensions.xml = ATZ.CecilExtensions.xml
 		LICENSE.txt = LICENSE.txt
 	EndProjectSection
 EndProject
