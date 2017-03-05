@@ -12,7 +12,7 @@
     <licenseUrl>https://raw.githubusercontent.com/atzimler/CecilExtensions/master/LICENSE.txt</licenseUrl>
     <description>Extensions for Mono.Cecil and related types.</description>
     <dependencies>
-      <dependency id="Mono.Cecil" version="[0.9.6.4" />
+      <dependency id="Mono.Cecil" version="0.9.6.4" />
     </dependencies>
     
     <releaseNotes>
