@@ -45,5 +45,19 @@ namespace ATZ.CecilExtensions.Tests
                 Console.WriteLine(assembly.FullName);
             }
         }
+
+        [Test]
+        public void ListSearchDirectoriesCorrectly()
+        {
+            Assert.IsNotNull(AssemblyDefinitionExtensions.SearchDirectories);
+        }
+
+        [Test]
+        public void DisallowAdditionToTheSearchDirectories()
+        {
+            var sd1 = AssemblyDefinitionExtensions.SearchDirectories;
+            var sd2 = AssemblyDefinitionExtensions.SearchDirectories;
+            Assert.AreNotSame(sd1, sd2);
+        }
     }
 }
