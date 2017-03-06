@@ -18,6 +18,8 @@ namespace ATZ.CecilExtensions
             AppDomain.CurrentDomain.BaseDirectory
         };
 
+        [NotNull]
+        [ItemNotNull]
         public static List<string> SearchDirectories => AssemblySearchDirectories.ToList();
 
         private static void MapAssemblyReferences([NotNull] string assemblyFullName, [NotNull] Queue<string> unprocessedAssemblies)
